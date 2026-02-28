@@ -1,0 +1,17 @@
+{
+  "name": "claude-lsp-servers",
+  "description": "LSP servers for Claude Code",
+  "owner": {
+    "name": "CrisRPia",
+    "url": "https://github.com/CrisRPia"
+  },
+  "plugins": [
+    {
+      "name": "basedpyright-lsp",
+      "description": "basedpyright language server for Python",
+      "version": "1.0.0",
+      "source": "./plugins/basedpyright-lsp",
+      "tags": ["lsp", "python", "basedpyright"]
+    }
+  ]
+}
