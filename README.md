@@ -30,11 +30,7 @@ claude plugin install basedpyright-lsp@claude-lsp-servers
 
 ### basedpyright-lsp
 
-Python type checking via [basedpyright](https://github.com/DetachHead/basedpyright).
-
-```bash
-brew install basedpyright  # or: pip install basedpyright
-```
+Python type checking via [basedpyright](https://github.com/DetachHead/basedpyright). [Installation options](https://docs.basedpyright.com/latest/installation/command-line-and-language-server/).
 
 Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `goToImplementation`, `incomingCalls`, `outgoingCalls`.
 
