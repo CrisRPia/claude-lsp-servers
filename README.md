@@ -38,7 +38,7 @@ Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `goToIm
 
 Rust intelligence via [rust-analyzer](https://github.com/rust-lang/rust-analyzer). Install via `rustup component add rust-analyzer`.
 
-Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `goToImplementation`, `incomingCalls`, `outgoingCalls`.
+Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `workspaceSymbol`, `goToImplementation`, `prepareCallHierarchy`, `incomingCalls`, `outgoingCalls`.
 
 ## Troubleshooting
 
