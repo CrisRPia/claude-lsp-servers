@@ -61,3 +61,7 @@ Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `goToIm
 ```
 
 3. Add an entry to `.claude-plugin/marketplace.json` under `plugins`.
+
+## Credits
+
+Inspired by [yungweng/claude-lsp-servers](https://github.com/yungweng/claude-lsp-servers).
