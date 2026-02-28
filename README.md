@@ -68,7 +68,7 @@ Provides: `hover`, `documentSymbol`.
 
 TOML formatting, linting, and intelligence via [tombi](https://github.com/tombi-toml/tombi). Install via `brew install tombi`, `npm install tombi`, or `pip install tombi`.
 
-Provides: TODO
+Provides: `hover`, `documentSymbol`.
 
 ## Troubleshooting
 
