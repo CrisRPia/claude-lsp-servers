@@ -2,27 +2,66 @@
 
 LSP plugins for Claude Code. Workaround for [#15148](https://github.com/anthropics/claude-code/issues/15148).
 
-## Prerequisites
+## Setup
+
+### 1. Enable LSP tool
+
+Add to your shell profile (`~/.zshrc`, `~/.bashrc`, etc.) and restart your shell:
 
 ```bash
-export ENABLE_LSP_TOOL=1  # Add to shell profile
+export ENABLE_LSP_TOOL=1
 ```
 
-## Available plugins
-
-### basedpyright-lsp
-
-```bash
-brew install basedpyright  # or: pip install basedpyright
-claude plugin install basedpyright-lsp@claude-lsp-servers
-```
-
-## Install marketplace
+### 2. Add marketplace
 
 ```bash
 claude plugin marketplace add CrisRPia/claude-lsp-servers
 ```
 
+### 3. Install a plugin
+
+```bash
+claude plugin install basedpyright-lsp@claude-lsp-servers
+```
+
+### 4. Restart Claude Code
+
+## Available plugins
+
+### basedpyright-lsp
+
+Python type checking via [basedpyright](https://github.com/DetachHead/basedpyright).
+
+```bash
+brew install basedpyright  # or: pip install basedpyright
+```
+
+Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `goToImplementation`, `incomingCalls`, `outgoingCalls`.
+
 ## Adding a new LSP
 
-Create `plugins/<name>/.lsp.json` with the server config and add an entry to `.claude-plugin/marketplace.json`.
+1. Create `plugins/<name>/.lsp.json`:
+
+```json
+{
+  "<language>": {
+    "command": "<language-server-binary>",
+    "args": ["--stdio"],
+    "extensionToLanguage": {
+      ".<ext>": "<language>"
+    }
+  }
+}
+```
+
+2. Create `plugins/<name>/.claude-plugin/plugin.json`:
+
+```json
+{
+  "name": "<name>",
+  "version": "1.0.0",
+  "description": "<description>"
+}
+```
+
+3. Add an entry to `.claude-plugin/marketplace.json` under `plugins`.
