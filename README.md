@@ -44,7 +44,7 @@ Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `worksp
 
 TypeScript and JavaScript intelligence via [typescript-language-server](https://github.com/typescript-language-server/typescript-language-server). Install via `npm i -g typescript-language-server typescript`.
 
-Provides: TODO
+Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `workspaceSymbol`, `goToImplementation`, `prepareCallHierarchy`, `incomingCalls`, `outgoingCalls`.
 
 ### json-lsp
 
