@@ -56,7 +56,7 @@ Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`.
 
 HTML intelligence via [vscode-html-languageservice](https://github.com/microsoft/vscode-html-languageservice). Install via `npm i -g vscode-langservers-extracted`.
 
-Provides: TODO
+Provides: `hover`, `documentSymbol`.
 
 ### json-lsp
 
