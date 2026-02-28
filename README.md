@@ -50,7 +50,7 @@ Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `worksp
 
 CSS, SCSS, and LESS intelligence via [vscode-css-languageservice](https://github.com/microsoft/vscode-css-languageservice). Install via `npm i -g vscode-langservers-extracted`.
 
-Provides: TODO
+Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`.
 
 ### json-lsp
 
