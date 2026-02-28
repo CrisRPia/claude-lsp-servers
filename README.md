@@ -34,6 +34,16 @@ Python type checking via [basedpyright](https://github.com/DetachHead/basedpyrig
 
 Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `goToImplementation`, `incomingCalls`, `outgoingCalls`.
 
+## Troubleshooting
+
+### `Executable not found in $PATH`
+
+The language server binary must be installed and available in your `$PATH` in the shell you start Claude Code from. Verify with e.g. `basedpyright-langserver --version`. If it works in your terminal but Claude Code can't find it, restart your shell after modifying `$PATH`.
+
+### LSP seems enabled but doesn't work
+
+Check for conflicting built-in LSPs by running `/plugin` in a Claude Code chat. If `pyright` appears (e.g. registered by the VS Code extension), uninstall it from the plugin UI — having both active causes conflicts.
+
 ## Adding a new LSP
 
 1. Create `plugins/<name>/.lsp.json`:
