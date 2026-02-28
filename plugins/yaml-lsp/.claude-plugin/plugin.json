@@ -1,0 +1,5 @@
+{
+  "name": "yaml-lsp",
+  "version": "1.0.0",
+  "description": "YAML language server via yaml-language-server"
+}

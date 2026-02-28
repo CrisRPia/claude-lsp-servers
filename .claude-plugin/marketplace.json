@@ -54,6 +54,13 @@
       "version": "1.0.0",
       "source": "./plugins/tombi-lsp",
       "tags": ["lsp", "toml", "tombi"]
+    },
+    {
+      "name": "yaml-lsp",
+      "description": "YAML language server via yaml-language-server",
+      "version": "1.0.0",
+      "source": "./plugins/yaml-lsp",
+      "tags": ["lsp", "yaml", "yaml-language-server"]
     }
   ]
 }
