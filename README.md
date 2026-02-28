@@ -44,7 +44,7 @@ Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `worksp
 
 JSON language server via [vscode-json-languageservice](https://github.com/microsoft/vscode-json-languageservice). Install via `npm i -g vscode-langservers-extracted`.
 
-Provides: TODO
+Provides: `hover`, `documentSymbol`.
 
 ## Troubleshooting
 
