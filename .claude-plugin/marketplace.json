@@ -40,6 +40,13 @@
       "version": "1.0.0",
       "source": "./plugins/css-lsp",
       "tags": ["lsp", "css", "scss", "less", "vscode-css-language-server"]
+    },
+    {
+      "name": "html-lsp",
+      "description": "HTML language server via vscode-html-language-server",
+      "version": "1.0.0",
+      "source": "./plugins/html-lsp",
+      "tags": ["lsp", "html", "vscode-html-language-server"]
     }
   ]
 }

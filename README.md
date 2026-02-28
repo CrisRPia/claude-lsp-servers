@@ -52,6 +52,12 @@ CSS, SCSS, and LESS intelligence via [vscode-css-languageservice](https://github
 
 Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`.
 
+### html-lsp
+
+HTML intelligence via [vscode-html-languageservice](https://github.com/microsoft/vscode-html-languageservice). Install via `npm i -g vscode-langservers-extracted`.
+
+Provides: TODO
+
 ### json-lsp
 
 JSON language server via [vscode-json-languageservice](https://github.com/microsoft/vscode-json-languageservice). Install via `npm i -g vscode-langservers-extracted`.

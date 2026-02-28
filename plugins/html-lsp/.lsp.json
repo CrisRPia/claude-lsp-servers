@@ -1,0 +1,10 @@
+{
+  "html": {
+    "command": "vscode-html-language-server",
+    "args": ["--stdio"],
+    "extensionToLanguage": {
+      ".html": "html",
+      ".htm": "html"
+    }
+  }
+}

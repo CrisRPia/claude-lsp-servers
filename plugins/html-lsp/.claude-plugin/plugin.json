@@ -1,0 +1,5 @@
+{
+  "name": "html-lsp",
+  "version": "1.0.0",
+  "description": "HTML language server via vscode-html-language-server"
+}
