@@ -1,0 +1,5 @@
+{
+  "name": "typescript-lsp",
+  "version": "1.0.0",
+  "description": "TypeScript/JavaScript language server via typescript-language-server"
+}

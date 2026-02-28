@@ -26,6 +26,13 @@
       "version": "1.0.0",
       "source": "./plugins/json-lsp",
       "tags": ["lsp", "json", "vscode-json-language-server"]
+    },
+    {
+      "name": "typescript-lsp",
+      "description": "TypeScript/JavaScript language server via typescript-language-server",
+      "version": "1.0.0",
+      "source": "./plugins/typescript-lsp",
+      "tags": ["lsp", "typescript", "javascript", "typescript-language-server"]
     }
   ]
 }

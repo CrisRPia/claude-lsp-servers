@@ -40,6 +40,12 @@ Rust intelligence via [rust-analyzer](https://github.com/rust-lang/rust-analyzer
 
 Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `workspaceSymbol`, `goToImplementation`, `prepareCallHierarchy`, `incomingCalls`, `outgoingCalls`.
 
+### typescript-lsp
+
+TypeScript and JavaScript intelligence via [typescript-language-server](https://github.com/typescript-language-server/typescript-language-server). Install via `npm i -g typescript-language-server typescript`.
+
+Provides: TODO
+
 ### json-lsp
 
 JSON language server via [vscode-json-languageservice](https://github.com/microsoft/vscode-json-languageservice). Install via `npm i -g vscode-langservers-extracted`.
