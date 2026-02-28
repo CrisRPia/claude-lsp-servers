@@ -19,6 +19,13 @@
       "version": "1.0.0",
       "source": "./plugins/rust-analyzer-lsp",
       "tags": ["lsp", "rust", "rust-analyzer"]
+    },
+    {
+      "name": "json-lsp",
+      "description": "JSON language server via vscode-json-language-server",
+      "version": "1.0.0",
+      "source": "./plugins/json-lsp",
+      "tags": ["lsp", "json", "vscode-json-language-server"]
     }
   ]
 }

@@ -1,0 +1,5 @@
+{
+  "name": "json-lsp",
+  "version": "1.0.0",
+  "description": "JSON language server via vscode-json-language-server"
+}

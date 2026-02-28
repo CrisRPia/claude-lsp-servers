@@ -40,6 +40,12 @@ Rust intelligence via [rust-analyzer](https://github.com/rust-lang/rust-analyzer
 
 Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `workspaceSymbol`, `goToImplementation`, `prepareCallHierarchy`, `incomingCalls`, `outgoingCalls`.
 
+### json-lsp
+
+JSON language server via [vscode-json-languageservice](https://github.com/microsoft/vscode-json-languageservice). Install via `npm i -g vscode-langservers-extracted`.
+
+Provides: TODO
+
 ## Troubleshooting
 
 ### `Executable not found in $PATH`
