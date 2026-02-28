@@ -33,6 +33,13 @@
       "version": "1.0.0",
       "source": "./plugins/typescript-lsp",
       "tags": ["lsp", "typescript", "javascript", "typescript-language-server"]
+    },
+    {
+      "name": "css-lsp",
+      "description": "CSS, SCSS, and LESS language server via vscode-css-language-server",
+      "version": "1.0.0",
+      "source": "./plugins/css-lsp",
+      "tags": ["lsp", "css", "scss", "less", "vscode-css-language-server"]
     }
   ]
 }

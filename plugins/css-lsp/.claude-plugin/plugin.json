@@ -1,0 +1,5 @@
+{
+  "name": "css-lsp",
+  "version": "1.0.0",
+  "description": "CSS, SCSS, and LESS language server via vscode-css-language-server"
+}

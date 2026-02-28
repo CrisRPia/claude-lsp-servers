@@ -46,6 +46,12 @@ TypeScript and JavaScript intelligence via [typescript-language-server](https://
 
 Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `workspaceSymbol`, `goToImplementation`, `prepareCallHierarchy`, `incomingCalls`, `outgoingCalls`.
 
+### css-lsp
+
+CSS, SCSS, and LESS intelligence via [vscode-css-languageservice](https://github.com/microsoft/vscode-css-languageservice). Install via `npm i -g vscode-langservers-extracted`.
+
+Provides: TODO
+
 ### json-lsp
 
 JSON language server via [vscode-json-languageservice](https://github.com/microsoft/vscode-json-languageservice). Install via `npm i -g vscode-langservers-extracted`.
