@@ -64,6 +64,12 @@ JSON language server via [vscode-json-languageservice](https://github.com/micros
 
 Provides: `hover`, `documentSymbol`.
 
+### tombi-lsp
+
+TOML formatting, linting, and intelligence via [tombi](https://github.com/tombi-toml/tombi). Install via `brew install tombi`, `npm install tombi`, or `pip install tombi`.
+
+Provides: TODO
+
 ## Troubleshooting
 
 ### `Executable not found in $PATH`

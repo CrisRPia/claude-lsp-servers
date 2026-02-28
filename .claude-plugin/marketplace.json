@@ -47,6 +47,13 @@
       "version": "1.0.0",
       "source": "./plugins/html-lsp",
       "tags": ["lsp", "html", "vscode-html-language-server"]
+    },
+    {
+      "name": "tombi-lsp",
+      "description": "TOML language server via tombi",
+      "version": "1.0.0",
+      "source": "./plugins/tombi-lsp",
+      "tags": ["lsp", "toml", "tombi"]
     }
   ]
 }
