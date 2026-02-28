@@ -12,6 +12,13 @@
       "version": "1.0.0",
       "source": "./plugins/basedpyright-lsp",
       "tags": ["lsp", "python", "basedpyright"]
+    },
+    {
+      "name": "rust-analyzer-lsp",
+      "description": "rust-analyzer language server for Rust",
+      "version": "1.0.0",
+      "source": "./plugins/rust-analyzer-lsp",
+      "tags": ["lsp", "rust", "rust-analyzer"]
     }
   ]
 }

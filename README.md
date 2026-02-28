@@ -34,6 +34,12 @@ Python type checking via [basedpyright](https://github.com/DetachHead/basedpyrig
 
 Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `goToImplementation`, `incomingCalls`, `outgoingCalls`.
 
+### rust-analyzer-lsp
+
+Rust intelligence via [rust-analyzer](https://github.com/rust-lang/rust-analyzer). Install via `rustup component add rust-analyzer`.
+
+Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `goToImplementation`, `incomingCalls`, `outgoingCalls`.
+
 ## Troubleshooting
 
 ### `Executable not found in $PATH`

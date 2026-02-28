@@ -1,0 +1,5 @@
+{
+  "name": "rust-analyzer-lsp",
+  "version": "1.0.0",
+  "description": "rust-analyzer language server for Rust"
+}
