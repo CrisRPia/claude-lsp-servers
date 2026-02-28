@@ -74,7 +74,7 @@ Provides: `hover`, `documentSymbol`.
 
 YAML intelligence via [yaml-language-server](https://github.com/redhat-developer/yaml-language-server). Install via `npm i -g yaml-language-server`.
 
-Provides: TODO
+Provides: `hover`, `documentSymbol`.
 
 ## Troubleshooting
 
