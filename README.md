@@ -86,6 +86,12 @@ Provides: `hover`, `goToDefinition`, `documentSymbol`.
 
 Bash/Shell scripting intelligence via [bash-language-server](https://github.com/bash-lsp/bash-lsp).
 
+Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`.
+
+### tailwind-lsp
+
+Tailwind CSS intelligence via [tailwindcss-language-server](https://github.com/tailwindlabs/tailwindcss-intellisense).
+
 Provides: TODO
 
 ## Troubleshooting
