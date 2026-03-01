@@ -82,6 +82,12 @@ XML intelligence via [LemMinX](https://github.com/eclipse/lemminx).
 
 Provides: `hover`, `goToDefinition`, `documentSymbol`.
 
+### bash-lsp
+
+Bash/Shell scripting intelligence via [bash-language-server](https://github.com/bash-lsp/bash-lsp).
+
+Provides: TODO
+
 ## Troubleshooting
 
 ### `Executable not found in $PATH`

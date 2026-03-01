@@ -1,0 +1,5 @@
+{
+  "name": "bash-lsp",
+  "version": "1.0.0",
+  "description": "Bash language server via bash-language-server"
+}

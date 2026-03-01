@@ -68,6 +68,13 @@
       "version": "1.0.0",
       "source": "./plugins/xml-lsp",
       "tags": ["lsp", "xml", "lemminx"]
+    },
+    {
+      "name": "bash-lsp",
+      "description": "Bash language server via bash-language-server",
+      "version": "1.0.0",
+      "source": "./plugins/bash-lsp",
+      "tags": ["lsp", "bash", "shell", "bash-language-server"]
     }
   ]
 }
