@@ -1,0 +1,5 @@
+{
+  "name": "jinja-lsp",
+  "version": "1.0.0",
+  "description": "Jinja template language server via jinja-lsp"
+}

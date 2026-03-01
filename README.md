@@ -94,6 +94,12 @@ Lua intelligence via [lua-language-server](https://github.com/LuaLS/lua-language
 
 Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `workspaceSymbol`.
 
+### jinja-lsp
+
+Jinja template intelligence via [jinja-lsp](https://github.com/uros-5/jinja-lsp).
+
+Provides: TODO
+
 ## Limitations
 
 ### LSPs that require dynamic capability registration
