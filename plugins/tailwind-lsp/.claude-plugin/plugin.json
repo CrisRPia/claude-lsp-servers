@@ -1,0 +1,5 @@
+{
+  "name": "tailwind-lsp",
+  "version": "1.0.0",
+  "description": "Tailwind CSS language server via tailwindcss-language-server"
+}

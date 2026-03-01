@@ -1,0 +1,14 @@
+{
+  "tailwindcss": {
+    "command": "tailwindcss-language-server",
+    "args": ["--stdio"],
+    "extensionToLanguage": {
+      ".html": "html",
+      ".css": "css",
+      ".jsx": "javascriptreact",
+      ".tsx": "typescriptreact",
+      ".vue": "vue",
+      ".svelte": "svelte"
+    }
+  }
+}
