@@ -1,0 +1,5 @@
+{
+  "name": "xml-lsp",
+  "version": "1.0.0",
+  "description": "XML language server via LemMinX"
+}

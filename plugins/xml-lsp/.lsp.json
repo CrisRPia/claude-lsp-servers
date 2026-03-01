@@ -1,0 +1,13 @@
+{
+  "xml": {
+    "command": "lemminx",
+    "args": [],
+    "extensionToLanguage": {
+      ".xml": "xml",
+      ".xsd": "xml",
+      ".xsl": "xml",
+      ".xslt": "xml",
+      ".svg": "xml"
+    }
+  }
+}

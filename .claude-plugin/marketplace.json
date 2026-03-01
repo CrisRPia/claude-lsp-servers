@@ -61,6 +61,13 @@
       "version": "1.0.0",
       "source": "./plugins/yaml-lsp",
       "tags": ["lsp", "yaml", "yaml-language-server"]
+    },
+    {
+      "name": "xml-lsp",
+      "description": "XML language server via LemMinX",
+      "version": "1.0.0",
+      "source": "./plugins/xml-lsp",
+      "tags": ["lsp", "xml", "lemminx"]
     }
   ]
 }

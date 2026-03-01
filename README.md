@@ -76,6 +76,12 @@ YAML intelligence via [yaml-language-server](https://github.com/redhat-developer
 
 Provides: `hover`, `documentSymbol`.
 
+### xml-lsp
+
+XML intelligence via [LemMinX](https://github.com/eclipse/lemminx). [Installation](https://github.com/eclipse/lemminx#getting-started).
+
+Provides: TODO
+
 ## Troubleshooting
 
 ### `Executable not found in $PATH`
