@@ -75,6 +75,13 @@
       "version": "1.0.0",
       "source": "./plugins/bash-lsp",
       "tags": ["lsp", "bash", "shell", "bash-language-server"]
+    },
+    {
+      "name": "lua-lsp",
+      "description": "Lua language server via lua-language-server",
+      "version": "1.0.0",
+      "source": "./plugins/lua-lsp",
+      "tags": ["lsp", "lua", "lua-language-server"]
     }
   ]
 }

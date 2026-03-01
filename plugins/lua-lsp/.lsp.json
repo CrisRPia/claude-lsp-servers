@@ -1,0 +1,9 @@
+{
+  "lua": {
+    "command": "lua-language-server",
+    "args": ["--stdio"],
+    "extensionToLanguage": {
+      ".lua": "lua"
+    }
+  }
+}

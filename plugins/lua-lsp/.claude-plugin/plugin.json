@@ -1,0 +1,5 @@
+{
+  "name": "lua-lsp",
+  "version": "1.0.0",
+  "description": "Lua language server via lua-language-server"
+}

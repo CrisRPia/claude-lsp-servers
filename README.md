@@ -88,6 +88,12 @@ Bash/Shell scripting intelligence via [bash-language-server](https://github.com/
 
 Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`.
 
+### lua-lsp
+
+Lua intelligence via [lua-language-server](https://github.com/LuaLS/lua-language-server).
+
+Provides: TODO
+
 ## Limitations
 
 ### LSPs that require dynamic capability registration
