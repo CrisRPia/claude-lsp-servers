@@ -1,0 +1,10 @@
+{
+  "dockerfile": {
+    "command": "docker-langserver",
+    "args": ["--stdio"],
+    "extensionToLanguage": {
+      "Dockerfile": "dockerfile",
+      ".dockerfile": "dockerfile"
+    }
+  }
+}

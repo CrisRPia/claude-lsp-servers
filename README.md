@@ -88,6 +88,12 @@ Bash/Shell scripting intelligence via [bash-language-server](https://github.com/
 
 Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`.
 
+### docker-lsp
+
+Dockerfile intelligence via [dockerfile-language-server](https://github.com/rcjsuen/dockerfile-language-server-nodejs).
+
+Provides: TODO
+
 ## Limitations
 
 ### LSPs that require dynamic capability registration

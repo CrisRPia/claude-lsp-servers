@@ -75,6 +75,13 @@
       "version": "1.0.0",
       "source": "./plugins/bash-lsp",
       "tags": ["lsp", "bash", "shell", "bash-language-server"]
+    },
+    {
+      "name": "docker-lsp",
+      "description": "Dockerfile language server via dockerfile-language-server",
+      "version": "1.0.0",
+      "source": "./plugins/docker-lsp",
+      "tags": ["lsp", "docker", "dockerfile", "dockerfile-language-server"]
     }
   ]
 }
