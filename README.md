@@ -30,55 +30,55 @@ claude plugin install basedpyright-lsp@claude-lsp-servers
 
 ### basedpyright-lsp
 
-Python type checking via [basedpyright](https://github.com/DetachHead/basedpyright). [Installation options](https://docs.basedpyright.com/latest/installation/command-line-and-language-server/).
+Python type checking via [basedpyright](https://github.com/DetachHead/basedpyright).
 
 Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `goToImplementation`, `incomingCalls`, `outgoingCalls`.
 
 ### rust-analyzer-lsp
 
-Rust intelligence via [rust-analyzer](https://github.com/rust-lang/rust-analyzer). Install via `rustup component add rust-analyzer`.
+Rust intelligence via [rust-analyzer](https://github.com/rust-lang/rust-analyzer).
 
 Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `workspaceSymbol`, `goToImplementation`, `prepareCallHierarchy`, `incomingCalls`, `outgoingCalls`.
 
 ### typescript-lsp
 
-TypeScript and JavaScript intelligence via [typescript-language-server](https://github.com/typescript-language-server/typescript-language-server). Install via `npm i -g typescript-language-server typescript`.
+TypeScript and JavaScript intelligence via [typescript-language-server](https://github.com/typescript-language-server/typescript-language-server).
 
 Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `workspaceSymbol`, `goToImplementation`, `prepareCallHierarchy`, `incomingCalls`, `outgoingCalls`.
 
 ### css-lsp
 
-CSS, SCSS, and LESS intelligence via [vscode-css-languageservice](https://github.com/microsoft/vscode-css-languageservice). Install via `npm i -g vscode-langservers-extracted`.
+CSS, SCSS, and LESS intelligence via [vscode-css-languageservice](https://github.com/microsoft/vscode-css-languageservice).
 
 Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`.
 
 ### html-lsp
 
-HTML intelligence via [vscode-html-languageservice](https://github.com/microsoft/vscode-html-languageservice). Install via `npm i -g vscode-langservers-extracted`.
+HTML intelligence via [vscode-html-languageservice](https://github.com/microsoft/vscode-html-languageservice).
 
 Provides: `hover`, `documentSymbol`.
 
 ### json-lsp
 
-JSON language server via [vscode-json-languageservice](https://github.com/microsoft/vscode-json-languageservice). Install via `npm i -g vscode-langservers-extracted`.
+JSON language server via [vscode-json-languageservice](https://github.com/microsoft/vscode-json-languageservice).
 
 Provides: `hover`, `documentSymbol`.
 
 ### tombi-lsp
 
-TOML formatting, linting, and intelligence via [tombi](https://github.com/tombi-toml/tombi). Install via `brew install tombi`, `npm install tombi`, or `pip install tombi`.
+TOML formatting, linting, and intelligence via [tombi](https://github.com/tombi-toml/tombi).
 
 Provides: `hover`, `documentSymbol`.
 
 ### yaml-lsp
 
-YAML intelligence via [yaml-language-server](https://github.com/redhat-developer/yaml-language-server). Install via `npm i -g yaml-language-server`.
+YAML intelligence via [yaml-language-server](https://github.com/redhat-developer/yaml-language-server).
 
 Provides: `hover`, `documentSymbol`.
 
 ### xml-lsp
 
-XML intelligence via [LemMinX](https://github.com/eclipse/lemminx). [Installation](https://github.com/eclipse/lemminx#getting-started).
+XML intelligence via [LemMinX](https://github.com/eclipse/lemminx).
 
 Provides: TODO
 
@@ -86,7 +86,13 @@ Provides: TODO
 
 ### `Executable not found in $PATH`
 
-The language server binary must be installed and available in your `$PATH` in the shell you start Claude Code from. Verify with e.g. `basedpyright-langserver --version`. If it works in your terminal but Claude Code can't find it, restart your shell after modifying `$PATH`.
+The language server binary must be installed and available in your `$PATH`. If you use [Mason](https://github.com/williamboman/mason.nvim) in Neovim, add its bin directory to your shell profile:
+
+```bash
+export PATH="$HOME/.local/share/nvim/mason/bin:$PATH"
+```
+
+Otherwise, install the binary manually (see each plugin's homepage). If it works in your terminal but Claude Code can't find it, restart your shell after modifying `$PATH`.
 
 ### LSP seems enabled but doesn't work
 
