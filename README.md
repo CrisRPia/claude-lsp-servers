@@ -80,7 +80,7 @@ Provides: `hover`, `documentSymbol`.
 
 XML intelligence via [LemMinX](https://github.com/eclipse/lemminx).
 
-Provides: TODO
+Provides: `hover`, `goToDefinition`, `documentSymbol`.
 
 ## Troubleshooting
 
