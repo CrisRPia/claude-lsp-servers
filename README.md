@@ -92,7 +92,7 @@ Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`.
 
 Lua intelligence via [lua-language-server](https://github.com/LuaLS/lua-language-server).
 
-Provides: TODO
+Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`, `workspaceSymbol`.
 
 ## Limitations
 
