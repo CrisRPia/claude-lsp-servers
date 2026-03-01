@@ -75,13 +75,6 @@
       "version": "1.0.0",
       "source": "./plugins/bash-lsp",
       "tags": ["lsp", "bash", "shell", "bash-language-server"]
-    },
-    {
-      "name": "tailwind-lsp",
-      "description": "Tailwind CSS language server via tailwindcss-language-server",
-      "version": "1.0.0",
-      "source": "./plugins/tailwind-lsp",
-      "tags": ["lsp", "tailwindcss", "css", "tailwindcss-language-server"]
     }
   ]
 }

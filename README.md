@@ -88,11 +88,11 @@ Bash/Shell scripting intelligence via [bash-language-server](https://github.com/
 
 Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`.
 
-### tailwind-lsp
+## Limitations
 
-Tailwind CSS intelligence via [tailwindcss-language-server](https://github.com/tailwindlabs/tailwindcss-intellisense).
+### LSPs that require dynamic capability registration
 
-Provides: TODO
+Claude Code's LSP client does not support `client/registerCapability`. Language servers that rely on dynamic registration (e.g. `tailwindcss-language-server`) will connect but fail to provide any features.
 
 ## Troubleshooting
 
