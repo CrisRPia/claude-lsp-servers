@@ -1,5 +1,0 @@
-{
-  "name": "docker-lsp",
-  "version": "1.0.0",
-  "description": "Dockerfile language server via dockerfile-language-server"
-}

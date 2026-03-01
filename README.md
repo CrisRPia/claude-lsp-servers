@@ -88,17 +88,15 @@ Bash/Shell scripting intelligence via [bash-language-server](https://github.com/
 
 Provides: `hover`, `goToDefinition`, `findReferences`, `documentSymbol`.
 
-### docker-lsp
-
-Dockerfile intelligence via [dockerfile-language-server](https://github.com/rcjsuen/dockerfile-language-server-nodejs).
-
-Provides: TODO
-
 ## Limitations
 
 ### LSPs that require dynamic capability registration
 
 Claude Code's LSP client does not support `client/registerCapability`. Language servers that rely on dynamic registration (e.g. `tailwindcss-language-server`) will connect but fail to provide any features.
+
+### Files without extensions
+
+`extensionToLanguage` only matches by file extension. Files like `Dockerfile` that have no extension cannot be matched, so LSPs like `dockerfile-language-server` won't activate.
 
 ## Troubleshooting
 
